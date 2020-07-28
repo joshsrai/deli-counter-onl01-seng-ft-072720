@@ -7,3 +7,4 @@ def line(line)
 
   puts line.size == 0 ? "#{empty} empty." : "#{empty}:" + line.map.with_index{ |name, index| " #{index + 1}. #{name}"}.join
 end
+
